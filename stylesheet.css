@@ -1,3 +1,4 @@
+/*メインの画面の設定*/
 .title{
   color: #0ff;
   padding-top:50px;
@@ -41,35 +42,60 @@ font-size: 30px;
 
 /*フッターの背景の色*/
 .footer_1{
+  text-align: center;
   background-color:#228b22;
-  height: 150px;
-  padding:15px 50px;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 /*フッターのハイキュークラブロゴの設定*/
-.footer_1 a{
+.footer_1 b{
   font-size: 50px;
 }
 
 
-/*個人のページの設定*/
-.left{
-  text-align: left;
-  font-size: 20px;
-  padding-left: 35%;
-  padding-right: 35%;
+/*個人のージの設定*/
+.header_2{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 30px;
 }
 
-.syoukai_2{
-  display: block;
+.body_2{
+  background-color:#ff7f50;
+  padding-bottom: 40px;
+}
 
+.img_2{
+  padding-top: 30px;
+}
+
+.main_name{
+  font-size:50px;
+}
+
+.main_kana{
+  font-size:15px;
+}
+
+.text{
+  font-size: 20px;
+}
+
+.info_name{
+  padding-right: 30px;
+}
+
+.main_sub{
+  text-align: center;
 }
 
 .item_2{
   text-align: center;
   display: none;
   display: inline-block;
-  padding:20px;
+  padding:30px;
 }
 
 .kanji_2{
@@ -86,12 +112,13 @@ font-size: 30px;
 
 /*フッターの背景の色*/
 .footer_2{
+  text-align: center;
   background-color:#228b22;
-  height: 150px;
-  padding:15px 50px;
+  padding-top: 30px;
+  padding-bottom: 40px;
 }
 
 /*フッターのハイキュークラブロゴの設定*/
-.footer_2 a{
+.footer_2 b{
   font-size: 50px;
 }
